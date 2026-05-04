@@ -6,19 +6,20 @@
 
 ## 🔬 Current Research
 
-**Multi-Omic ML — Pancreatic Cancer Survival Prediction** *(Ongoing)*
-- Reproducing and improving the Nature Cancer (2024) PDAC Molecular Twin survival model
-- Achieved **ACC=0.878, PPV=0.918, AUC=0.903** with tuned XGBoost/LightGBM — exceeding the published benchmark of 0.850
-- Engineered 589-feature multi-omic pipeline down to a 20-feature parsimonious model (97% complexity reduction)
-- Stack: Python · XGBoost · LightGBM · TensorFlow · Scikit-learn · Pandas · NumPy
+**Multi-Omic ML — Pancreatic Cancer Survival Prediction** *(Spring 2026)*
+- Reproduced and extended the Nature Cancer (2024) Molecular Twin PDAC survival platform
+- Identified **5 implementation corrections** from Zenodo source code — all 11 analytes exceed published baseline
+- Best result: **Multi-omic ACC=0.974** (paper: 0.850), **AUC=0.857** (LightGBM DART), **Clinical ACC=0.987**
+- Extended with stacking meta-learner, soft voting ensemble, and LightGBM DART dropout regularization
+- All experiments on **TTU HPCC** (Tesla V100-PCIE-32GB) via LOOCV — 74 PDAC patients, 6,355 features
+- Stack: Python · LightGBM · XGBoost · Scikit-learn · Pandas · NumPy · Matplotlib · SLURM
 
 ---
 
 ## 🛠 What I Build
 
 ```
-AI & ML          →  LLMs · RAG Pipelines · Agentic AI Workflows · Prompt Engineering
-                     XGBoost · LightGBM · CNN · LSTM · TensorFlow · Scikit-learn
+AI & ML          →  LLMs · RAG Pipelines · Agentic AI · XGBoost · LightGBM · CNN · LSTM · TensorFlow
 
 Backend & APIs   →  Java · Spring Boot · Python · REST APIs · Apigee API Gateway
                      OAuth2 · JWT · Microservices · ASP.NET Core · Django · Flask
@@ -41,20 +42,20 @@ End-to-end deep learning pipeline combining ResNet feature extraction and LSTM s
 
 ## 💼 Experience
 
-- **Graduate Assistant - Analyst I** @ Texas Tech University *(2026 - Present)*
-- **Software Engineer - Analyst II** @ Honeywell *(2024 - 2025)* — Cloud automation, FinOps, Azure/AWS/GCP
-- **Software Engineer - Analyst I** @ Honeywell *(2022 - 2024)* — Java microservices, Apigee API Gateway, 1M+ monthly API calls
-- **Software Engineering Intern** @ Honeywell *(2022)* — Tableau dashboards, data pipelines
+**Graduate Assistant - Analyst I** @ Texas Tech University *(2026 - Present)*
+**Software Engineer - Analyst II** @ Honeywell *(2024 - 2025)* — Cloud automation, FinOps, Azure/AWS/GCP
+**Software Engineer - Analyst I** @ Honeywell *(2022 - 2024)* — Java microservices, Apigee API Gateway, 1M+ monthly API calls
+**Software Engineering Intern** @ Honeywell *(2022)* — Tableau dashboards, data pipelines
 
 ---
 
 ## 🏆 Awards & Certifications
 
-- 🥇 Microsoft Certified: Azure Fundamentals (AZ-900)
-- 🎓 Machine Learning Nanodegree — Udacity
-- 🏆 Honeywell Bravo Award (2023)
-- 🎓 COMPEX Scholarship — Indian Embassy Nepal (2018)
-- 🎓 Merit Scholarship — VIT University (2021)
+🥇 Microsoft Certified: Azure Fundamentals (AZ-900)
+🎓 Machine Learning Nanodegree — Udacity
+🏆 Honeywell Bravo Award (2023)
+🎓 COMPEX Scholarship — Indian Embassy Nepal (2018)
+🎓 Merit Scholarship — VIT University (2021)
 
 ---
 
