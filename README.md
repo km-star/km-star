@@ -65,3 +65,4 @@ End-to-end deep learning pipeline combining ResNet feature extraction and LSTM s
 [![Email](https://img.shields.io/badge/Email-kmahat@ttu.edu-red?style=flat&logo=gmail)](mailto:kmahat@ttu.edu)
 
 *F-1 CPT/OPT Eligible | Open to AI/ML and Software Engineering Internships*
+Updated May 2026
